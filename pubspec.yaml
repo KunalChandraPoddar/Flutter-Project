@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: flutter_application_9
+=======
+name: flutter_application_6
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

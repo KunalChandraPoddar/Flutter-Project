@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "flutter_application_9.app"
+=======
+               BuildableName = "flutter_application_6.app"
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "flutter_application_9.app"
+=======
+            BuildableName = "flutter_application_6.app"
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "flutter_application_9.app"
+=======
+            BuildableName = "flutter_application_6.app"
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "flutter_application_9.app"
+=======
+            BuildableName = "flutter_application_6.app"
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

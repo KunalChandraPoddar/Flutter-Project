@@ -4,10 +4,17 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
+<<<<<<< HEAD
 set(BINARY_NAME "flutter_application_9")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.flutter_application_9")
+=======
+set(BINARY_NAME "flutter_application_6")
+# The unique GTK application identifier for this application. See:
+# https://wiki.gnome.org/HowDoI/ChooseApplicationID
+set(APPLICATION_ID "com.example.flutter_application_6")
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

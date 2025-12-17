@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "flutter_application_9",
     "short_name": "flutter_application_9",
+=======
+    "name": "flutter_application_6",
+    "short_name": "flutter_application_6",
+>>>>>>> 2d7ceede23b6669060f9add4b4c525a2c91e571d
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
