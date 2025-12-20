@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_6/widgets1/text_style_home.dart';
 import 'profile_button.dart';
 import 'profile_stats.dart';
 import 'user_profile.dart';
@@ -7,13 +8,13 @@ class Contents extends StatelessWidget {
   const Contents({
     super.key,
     required this.avatarUrl,
-    required this.nameStyle,
-    required this.subtitleStyle,
+    required this.name,
+    required this.email,
   });
 
   final String avatarUrl;
-  final TextStyle nameStyle;
-  final TextStyle subtitleStyle;
+    final String name;
+    final String email;
 
   @override
   Widget build(BuildContext context) {
@@ -38,10 +39,11 @@ class Contents extends StatelessWidget {
           children: [
             UserProfile(avatarUrl: avatarUrl),
             const SizedBox(height: 14),
-            Text('Kunal Chandra Poddar', style: nameStyle),
+            // Text('Kunal Chandra Poddar', style: nameStyle),
+            NameStyle(name),
             const SizedBox(height: 6),
-            Text('kunal@example.com', style: subtitleStyle),
-            
+            // Text('kunal@example.com', style: subtitleStyle),
+            SubtitleStyle(email),
             ProfileStats(),
 
             const SizedBox(height: 12),

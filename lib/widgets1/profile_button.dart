@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_6/widgets1/text_style_buttons.dart';
 
 class ProfileActionButton extends StatelessWidget {
   const ProfileActionButton({super.key});
@@ -16,9 +17,13 @@ class ProfileActionButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
           ),
         ),
-        child: const Text(
-          'Edit Profile',
-          style: TextStyle(fontSize: 18, color: Colors.white),
+        // child: const Text(
+        //   'Edit Profile',
+        //   style: TextStyle(fontSize: 18, color: Colors.white),
+        // ),
+          child: const Text(
+            'Edit Profile',
+            style: buttonTextStyle,
         ),
       ),
     );

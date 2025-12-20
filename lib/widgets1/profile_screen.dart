@@ -2,20 +2,24 @@ import 'package:flutter/material.dart';
 import 'profile_main.dart';
 
 class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
+  const ProfileScreen({super.key, required this.name, required this.imageUrl, required this.email,});
+
+  final String name;
+  final String imageUrl;
+  final String email;
 
   static const avatarUrl = 'https://img.freepik.com/free-photo/close-up-portrait-lion_23-2150496589.jpg';
 
   @override
   Widget build(BuildContext context) {
-    const TextStyle nameStyle = TextStyle(
-      fontSize: 22,
-      fontWeight: FontWeight.bold,
-    );
-    const TextStyle subtitleStyle = TextStyle(
-      fontSize: 16,
-      color: Colors.grey,
-    );
+    // const TextStyle nameStyle = TextStyle(
+    //   fontSize: 22,
+    //   fontWeight: FontWeight.bold,
+    // );
+    // const TextStyle subtitleStyle = TextStyle(
+    //   fontSize: 16,
+    //   color: Colors.grey,
+    // );
     
     return Scaffold(
       backgroundColor: Colors.grey[100],
@@ -24,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
           child: Center(  
-            child: const Contents(avatarUrl: avatarUrl, nameStyle: nameStyle, subtitleStyle: subtitleStyle), 
+            child: Contents(avatarUrl: imageUrl, name: name, email: email,), 
           ),
         ),
       ),
