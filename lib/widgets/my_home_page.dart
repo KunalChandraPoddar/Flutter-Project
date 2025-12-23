@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_6/widgets2/subscription_tab.dart';
+import 'package:flutter_application_6/widgets/contact_grid_images.dart';
+import 'package:flutter_application_6/widgets/contact_tab.dart';
 import 'button.dart';
 import 'home_tab.dart';
 import 'shorts_tab.dart';
@@ -18,9 +19,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final List<Widget> _pages = [
     HomeTab(),
-    ShortsTab(),
+    // ShortsTab(),
+    ContactTab(),
     Center(child: Text("Add")),
-    SubscriptionsTab(),
+    ContactGridImages(),
     Center(child: Text("Me")),
   ];
 
@@ -56,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icons.play_circle,
                 label: 'Shorts',
                 s: 26,
-                onTap: () => setState(() => _currentIndex = 3),
+                onTap: () => setState(() => _currentIndex = 1),
               ),
 
               Container(
@@ -80,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icons.subscriptions,
                 label: 'Subscriptions',
                 s: 26,
-                onTap: () => setState(() => _currentIndex = 1),
+                onTap: () => setState(() => _currentIndex = 3),
               ),
 
               BadgeExample(

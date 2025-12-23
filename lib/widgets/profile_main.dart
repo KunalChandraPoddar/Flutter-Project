@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_6/widgets1/text_style_home.dart';
+import 'package:flutter_application_6/text_styles/home.dart';
 import 'profile_button.dart';
 import 'profile_stats.dart';
 import 'user_profile.dart';

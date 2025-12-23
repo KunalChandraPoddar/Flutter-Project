@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_6/widgets1/text_style_buttons.dart';
+import 'package:flutter_application_6/text_styles/buttons.dart';
 
 class ProfileActionButton extends StatelessWidget {
   const ProfileActionButton({super.key});

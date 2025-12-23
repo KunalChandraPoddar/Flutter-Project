@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_6/widgets1/profile_screen.dart';
-import 'package:flutter_application_6/widgets2/contacts.dart';
+import 'package:flutter_application_6/widgets/profile_screen.dart';
+import 'package:flutter_application_6/widgets/contacts.dart';
 
-class SubscriptionsTab extends StatelessWidget {
-  const SubscriptionsTab({super.key});
+class ContactTab extends StatelessWidget {
+  const ContactTab({super.key});
 
   @override
   Widget build(BuildContext context) {
