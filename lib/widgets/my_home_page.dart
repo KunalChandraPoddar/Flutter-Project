@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_6/widgets/add_tab.dart';
 import 'package:flutter_application_6/widgets/contact_grid_images.dart';
 import 'package:flutter_application_6/widgets/contact_tab.dart';
 import 'button.dart';
 import 'home_tab.dart';
-import 'shorts_tab.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeTab(),
     // ShortsTab(),
     ContactTab(),
-    Center(child: Text("Add")),
+    AddTab(),
     ContactGridImages(),
     Center(child: Text("Me")),
   ];

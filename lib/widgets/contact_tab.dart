@@ -1,55 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_6/widgets/profile_screen.dart';
 import 'package:flutter_application_6/widgets/contacts.dart';
+import 'package:flutter_application_6/data/contact_data.dart';
 
 class ContactTab extends StatelessWidget {
   const ContactTab({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final List<Contact> contacts = [
-      Contact(
-        name: 'A Siba Redeemer',
-        imageUrl: 'https://i.pravatar.cc/150?img=1',
-        email: 'asiba.redeemer@example.com',
-      ),
-      Contact(
-        name: 'Abhineet Kumar Jha (BCET)',
-        imageUrl: 'https://i.pravatar.cc/150?img=2',
-        email: 'abhineet.jha@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-      Contact(
-        name: 'Abhiranjan Poddar',
-        imageUrl: 'https://i.pravatar.cc/150?img=3',
-        email: 'abhiranjan.poddar@example.com',
-      ),
-    ];
-
+    
     return Scaffold(
       backgroundColor: const Color(0xFFF1F3F4),
       appBar: AppBar(title: const Text('Contacts'), elevation: 0),

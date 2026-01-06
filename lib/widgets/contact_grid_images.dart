@@ -1,42 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_6/data/grid_images.dart';
 
 class ContactGridImages extends StatelessWidget {
-  ContactGridImages({super.key});
-
-  final List<Map<String, String>> contacts = [
-    {
-      "name": "Amit",
-      "image": "https://picsum.photos/200?1",
-    },
-    {
-      "name": "Rahul",
-      "image": "https://picsum.photos/200?2",
-    },
-    {
-      "name": "Neha",
-      "image": "https://picsum.photos/200?3",
-    },
-    {
-      "name": "Priya",
-      "image": "https://picsum.photos/200?4",
-    },
-    {
-      "name": "Amit",
-      "image": "https://picsum.photos/200?1",
-    },
-    {
-      "name": "Rahul",
-      "image": "https://picsum.photos/200?2",
-    },
-    {
-      "name": "Neha",
-      "image": "https://picsum.photos/200?3",
-    },
-    {
-      "name": "Priya",
-      "image": "https://picsum.photos/200?4",
-    },
-  ];
+  const ContactGridImages({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +22,7 @@ class ContactGridImages extends StatelessWidget {
           return Container(
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(8),
+              borderRadius: BorderRadius.circular(14),
               boxShadow: [
                 BoxShadow(
                   color: Colors.black12,
